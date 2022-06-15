@@ -26,7 +26,15 @@ module.exports = {
     "gatsby-transformer-sharp",
     "gatsby-plugin-react-helmet",
     "gatsby-plugin-vanilla-extract",
-      "gatsby-theme-contentful-blog",
+      {
+        resolve: "gatsby-theme-contentful-blog",
+          options: {
+              downloadLocal: true,
+              spaceId: process.env.CONTENTFUL_SPACE_ID,
+              accessToken: process.env.CONTENTFUL_ACCESS_TOKEN,
+              host: process.env.CONTENTFUL_HOST,
+          },
+      },
     {
       resolve: "gatsby-plugin-manifest",
       options: {
