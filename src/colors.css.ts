@@ -8,10 +8,10 @@
 }
 */
 export const colors = {
-  background: "#f6eee8",
+  background: "#D6D9DD",
   text: "#756477",
-  primary: "#EDA7A7",
-  muted: "#DECFCF",
-  active: "#004287",
+  primary: "#EB6969",
+  muted: "#F5F0E5",
+  active: "#BE505F",
   black: "#000",
 }
