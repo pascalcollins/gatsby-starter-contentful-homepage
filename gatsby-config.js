@@ -26,6 +26,7 @@ module.exports = {
     "gatsby-transformer-sharp",
     "gatsby-plugin-react-helmet",
     "gatsby-plugin-vanilla-extract",
+      "gatsby-theme-contentful-blog",
     {
       resolve: "gatsby-plugin-manifest",
       options: {
